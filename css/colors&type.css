@@ -131,12 +131,74 @@ body {
 /* UI-kit colors&type start */
 .wrapper {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 190px 0 150px;
 }
 
 .header__logo {
     padding: 30px 30px;
     margin-bottom: 67px;
+}
+
+.colors__type__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colors__rects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.rect{
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.rect100 {
+    background: #1F2041;
+}
+
+.rect75 {
+    background: rgba(31, 32, 65, 0.75);
+}
+
+.rect50 {
+    background: rgba(31, 32, 65, 0.5);
+}
+
+.rect25 {
+    background: rgba(31, 32, 65, 0.25);
+}
+
+.rect5 {
+    background: rgba(31, 32, 65, 0.05);
+}
+
+.rect_purple {
+    background: #BC9CFF;
+}
+
+.rect_green {
+    background: #6FCF97;
+}
+
+.rect__description {
+    padding: 7px 0;
+    width: 165px;
+}
+
+.desc__header {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.desc__color {
+    font-size: 19px;
+    display: block;
 }
 
 /* UI-kit colors&type end */
