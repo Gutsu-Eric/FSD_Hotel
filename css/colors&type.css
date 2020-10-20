@@ -192,15 +192,16 @@ body {
 .grid_headers__types_container {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-between;
-    align-items: stretch;
-    grid-gap: 0 30px;
-    width: 450px;
+    grid-template-rows: 60px 48px 15px 48px;
+    grid-gap: 50px 30px;
+    width: 403px;
+    padding-left: 35px;
 }
 
 .type__header_common {
     font-family: 'Montserrat', sans-serif;
     color: rgba(31, 32, 65, 0.25);
+    justify-self: end;
 }
 
 .type__header_h1 {
@@ -222,13 +223,16 @@ body {
 .type__desc_24 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
+    line-height: 30px;
     font-weight: bold;
     color: #1F2041;
+    width: 350px;
 }
 
 .type__desc_19 {
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
+    line-height: 24px;
     font-weight: bold;
     color: #1F2041;
 }
@@ -237,12 +241,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
     color: #1F2041;
 }
 
 .type__desc_14 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    line-height: 24px;
+    width: 301px;
     color: rgba(31, 32, 65, 0.75);
 }
 
