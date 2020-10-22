@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Gutsu-Eric/FSD_Hotel#readme",
   "dependencies": {
     "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
   }
 }

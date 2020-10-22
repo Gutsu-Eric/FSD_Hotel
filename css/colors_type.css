@@ -217,6 +217,7 @@ body {
 
 .type__header_body {
     font-size: 14px;
+    padding-top: 3px;
 }
 
 .type__desc_24 {
@@ -250,6 +251,7 @@ body {
     line-height: 24px;
     width: 301px;
     color: rgba(31, 32, 65, 0.75);
+    align-self: stretch;
 }
 
 /* UI-kit colors&type end */
